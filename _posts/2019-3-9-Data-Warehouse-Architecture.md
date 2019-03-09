@@ -16,4 +16,14 @@ This approach is defined by **Inmon** as - data warehouse as a central repositor
 
 **2. Three-tier data warehouse architecture**
 Generally, a data warehouse adopts a three-tier architecture.
-* 
+* Bottom Tier - The bottom tier of the architecture is the data warehouse database server. 
+* Middle Tier - OLAP Server
+* Top Tier
+
+**3. Intro about OLAP**
+* OLAP is a technology which enables analysts to extract and view business data from different points of view.
+* At the core of the OLAP, the concept is an OLAP cube.
+* There are five types operations in OLAP: roll-up, drill-down, slice, dice, pivot
+* Three types of widely used OLAP systems are MOLAP, ROLAP, HOLAP
+
+
