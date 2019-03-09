@@ -19,13 +19,13 @@ In contrast, relational data model is designed to add, update, remove records in
 **3. Steps of dimensional modelling**
 * select the business process
 * declare the level of detail
-> if a table contains sales data for every day, then it should be daily granularity. If a table contains total sales data for each month, then it has monthly granularity.
+    if a table contains sales data for every day, then it should be daily granularity. If a table contains total sales data for each month, then it has monthly granularity.
 * identify dimension (what, where, who)
 * identify fact
 * build the schema
-> star schema 
-    The star schema architecture is easy to design. The central of the star consists of the fact table and the points of the start is domension tables.
-    The fact table in the star chema which is third normal form.
-    The dimensional table are de-normalized
-> snowflake schema
-    The snowflake schema is an extension of the star schema, ecah dimension are normalized and connected to more dimension tables
+    star schema 
+        The star schema architecture is easy to design. The central of the star consists of the fact table and the points of the start is dimension tables.
+        The fact table in the star chema which is third normal form.
+        The dimensional table are de-normalized
+    snowflake schema
+        The snowflake schema is an extension of the star schema, ecah dimension are normalized and connected to more dimension tables
