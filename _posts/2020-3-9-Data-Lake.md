@@ -20,6 +20,7 @@ Unlike a hierarchal data warehouse where data is stored in files and folder. Dat
 * **Distillation tier** takes data from the storage tier and converts it to structured data for easier analysis
 * **Process tier** run analytical algorithms and users queries
 * **Unified operation tier** governs system management and monitoring. It includes auditing and proficiency management, data management and workflow management.
+
 **3. Key concepts in data lake**
 * Data ingestion
 * Data storage
